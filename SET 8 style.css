@@ -1,0 +1,47 @@
+/* Q1: Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    padding: 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Q2: Center child inside parent */
+.parent {
+    height: 200px;
+    width: 300px;
+    background-color: lightblue;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child {
+    height: 80px;
+    width: 100px;
+    background-color: orange;
+    text-align: center;
+}
+
+/* Q3: align-self */
+.container {
+    display: flex;
+    height: 200px;
+    background-color: lightgray;
+    align-items: flex-start;
+}
+
+.box {
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+.special {
+    align-self: flex-end;
+}
