@@ -1,0 +1,26 @@
+/* Q1 */
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+/* Q2 */
+.navbar {
+    background-color: #131921;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbar input {
+    padding: 10px;
+}
+
+.navbar button {
+    background-color: orange;
+    padding: 10px;
+}
