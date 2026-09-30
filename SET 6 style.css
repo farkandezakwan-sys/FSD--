@@ -1,0 +1,45 @@
+/* Q1: Relative Position */
+
+.box1 {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    background-color: lightblue;
+    width: 150px;
+    height: 100px;
+}
+
+
+/* Q2: Overlapping Divs */
+
+.parent {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: lightgray;
+}
+
+.box2 {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 150px;
+    height: 100px;
+    background-color: red;
+}
+
+/* Q3: Z-Index */
+
+.box3 {
+    position: absolute;
+    top: 60px;
+    left: 80px;
+    width: 150px;
+    height: 100px;
+    background-color: blue;
+    z-index: 2;
+}
+
+.box2 {
+    z-index: 1;
+}
