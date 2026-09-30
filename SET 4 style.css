@@ -1,0 +1,53 @@
+/* Q2: Borders */
+div {
+    border: 2px solid black;
+}
+
+/* Header */
+header {
+    background-color: #131921;
+    padding: 10px;
+}
+
+.navbar {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Q1: Content area */
+.content {
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Three boxes */
+.box {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+/* Q3: Different colors with 0.5 opacity */
+.red {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.green {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+.blue {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+/* Q4: Footer */
+footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
