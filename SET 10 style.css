@@ -1,0 +1,20 @@
+div{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    background-color: aqua;
+    border: 10px solid rgb(89, 38, 119);
+    border-top: 10px solid rgb(130, 77, 215);
+    animation: spin 2s ease-in infinite;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
